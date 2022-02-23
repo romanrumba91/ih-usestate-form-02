@@ -1,6 +1,8 @@
 import './App.css';
+import Exercise from './components/Exercise/Exercise';
 import Header from './components/Layout/Header';
 import Main from './components/Main/Main';
+
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
     //<> FRAGMENTO
     <>
       <Header />
-      <Main />
+      {/* <Main /> */}
+      <Exercise/>
     </>
   );
 }
